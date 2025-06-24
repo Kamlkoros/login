@@ -8,9 +8,8 @@ class Dashboard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Dashboard')),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text('Dashboard Page')],
+        child: Text('Dashboard Page',
+
         ),
       ),
     );
